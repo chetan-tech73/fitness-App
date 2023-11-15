@@ -1,0 +1,163 @@
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #263b54;
+  color: #bcc3cc;
+  padding: 5px;
+}
+
+.nav-container a {
+  text-decoration: none;
+  color: #ff7544;
+  font-weight: bold;
+  margin: 0 10px;
+}
+
+.right-links {
+  display: flex;
+  /* flex-direction: column; */
+  align-items: flex-end;
+}
+
+.right-links a {
+  margin: 5px;
+}
+
+.Form {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  width: 30vw;
+  background-color: rgb(80, 142, 223);
+  padding: 2vw 1vw;
+  border-radius: 10px 10px 0 0;
+  font-size: 2rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.SignUpForm {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 30vw;
+  padding: 2vw 1vw;
+  background-color: rgb(56, 3, 70);
+  border-radius: 0 0 10px 10px;
+}
+
+input {
+  border: 1px solid rgb(172, 171, 171);
+  border-radius: 10px;
+  padding: 1vw 1vw;
+  outline: none;
+  margin: 5px;
+}
+
+/* CSS for the background image */
+#hero {
+  background-color: #bcc3cc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ padding: 20px;
+}
+
+.hero-image{
+  width: 100%;
+  max-width: 70vh;
+
+}
+/* CSS for the hero text content */
+.hero-content {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+width: 100%;
+max-width: 500px;
+margin-top: 20px;
+}
+
+.hero-content h2{
+  font-family: 'Proxima Nova', sans-serif;
+  width: 100%;
+  color: #263b54;
+}
+
+.hero-button{
+  font-family: 'Proxima Nova', sans-serif;
+  font-weight: bold;
+  color: #ff7544;
+}
+
+.hero-content p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.no-account {
+  color: #263b54;
+}
+ 
+.signup-text{
+  color: #ff7544;
+  cursor: pointer;
+}
+
+.signup-text :hover {
+  text-decoration: underline;
+}
+
+
+/* styling the dashboard*/
+.category-link {
+  text-decoration: none;
+}
+.category-name {
+  color: #1c10c4;
+}
+
+.category-description {
+  color: #00ff00;
+}
+.category-list {
+  list-style: none;
+  padding: 0;
+}
+.category-item {
+  margin-bottom: 10px;
+}
+.category-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+.category-button img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .right-links {
+    order:1;
+    margin-top: 10px;
+  }
+}
